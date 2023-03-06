@@ -1,0 +1,26 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "college managment system",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loaamahran/CMS.git"
+  },
+  "author": "Afl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loaamahran/CMS/issues"
+  },
+  "homepage": "https://github.com/loaamahran/CMS#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.21"
+  }
+}
